@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -49,10 +49,13 @@ table {
 }
 
 * {
-  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
   font-synthesis: none;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
